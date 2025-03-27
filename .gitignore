@@ -1,0 +1,47 @@
+# General
+*.log
+*.sql
+*.sqlite
+*.bak
+.env
+.env.*.local
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
+public/storage
+public/hot
+storage/*.key
+storage/oauth-private.key
+storage/oauth-public.key
+storage/*.log
+storage/framework/*
+storage/logs/*
+bootstrap/cache/
+
+# WordPress Core Files (Ignore Core Updates)
+wp-config.php
+wp-config-sample.php
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/debug.log
+wp-content/wp-cache-config.php
+wp-content/uploads/
+
+# WordPress Plugins & Themes (Customizations Allowed)
+wp-content/plugins/index.php
+wp-content/themes/index.php
+wp-content/mu-plugins/
+
+# Ignore Composer & npm dependencies
+composer.lock
+package-lock.json
+yarn.lock
+
+# Ignore Laravel IDE Helper & Debugbar files
+_ide_helper.php
+.phpstorm.meta.php
+debugbar/
+
+# Ignore Laravel Horizon files
+horizon.log
